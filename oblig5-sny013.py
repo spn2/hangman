@@ -1,9 +1,5 @@
-#I did this task using the first version of the assignment text, but I've tried
-#to make everything compatible with the third version
-
 from graphics import *
 from random import randint
-#task 1A
 
 def makeCopy(secretWord):
 	"""Returns a list of underscores with the same length 
@@ -35,8 +31,6 @@ def getWord(secretWord):
 	
 	win.getMouse()
 	win.close()
-
-#task 1B
 
 def checkHit(secretWord, secretList, ltr):
 	"""Return secretList and hits; the updated secretList with the guessed letters ,
@@ -120,8 +114,6 @@ def askLtr(secretWord, secretList):
 		#undraw msg and secretList	
 		hitText.undraw()
 		word.undraw()
-		
-#task 1C
 
 def task1c():
 
@@ -229,7 +221,6 @@ def drawLeg(win, width , height , side):
 	else:
 		pass
 
-#task 1D
 def play(secretWord):
 
 	lives = 10
