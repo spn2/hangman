@@ -1,2 +1,2 @@
 # hangman
-Hangman game using graphics from John Zelle's "graphics" module.
+Hangman game in python using graphics from John Zelle's "graphics" module.
