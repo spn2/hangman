@@ -311,7 +311,7 @@ def play(secretWord):
 	win.close()
 	
 def random_word():
-#finn norsk ordlist
+#select random word from dictionary
 
 	infile = open(input("Enter dictionary file\n>"), 'r')
 	
@@ -319,5 +319,3 @@ def random_word():
 	infile.close()
 	
 	return word
-	
-play("kongeparken")
